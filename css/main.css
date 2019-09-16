@@ -100,9 +100,10 @@ textarea {
 .content-wrapper,
 header,
 header nav,
-header .content-wrapper,
+header nav ul,
 .hero-area,
-aside .content-wrapper,
+aside,
+section,
 .features-items,
 .review-wrapper,
 .faq-content,
@@ -114,15 +115,26 @@ footer,
     flex-flow: row wrap;
     align-content: center;
 }
+header nav ul {
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
 /*----------WIDTHS----------*/
 .content-wrapper {
     width: 88.9%
 }
+.header-divider {
+    width: 100%;
+}
 header nav {
     width: 60%;
 }
+header nav ul {
+    width: 100%;
+}
 .features article {
-    width: 55.%;
+    width: 55.5%;
 }
 .social-icons {
     width: 55.5%;
@@ -158,6 +170,7 @@ h2 {
 }
 .reviews article h3 {
     padding: 22px 0;
+    margin: 0;
 }
 footer {
     padding: 53px 0 7px 0;
@@ -172,6 +185,7 @@ footer h4 {
 header .content-wrapper,
 .form-description p,
 .features p,
+.reviews p,
 footer p {
     margin: 0;
 }
