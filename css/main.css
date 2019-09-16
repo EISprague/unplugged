@@ -97,7 +97,21 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+header,
+header nav,
+header .content-wrapper,
+.hero-area,
+aside .content-wrapper,
+.features-items,
+.review-wrapper,
+.faq-content,
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    align-content: center;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
