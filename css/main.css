@@ -148,6 +148,9 @@ aside .form input {
 .features article {
     width: 55.5%;
 }
+.footer-content {
+	width: 100%;
+}
 .contact,
 .social {
 	width: 100%;
@@ -311,7 +314,7 @@ footer p {
 	.header-divider {
 		width: 0;
 	}
-	.hero-area {
+	.hero-area .content-wrapper {
 		justify-content: flex-start;
 	}
 	.hero-area h1 {
@@ -331,13 +334,12 @@ footer p {
 		padding: 100px 0 0 0;
 	}
 	.features-items {
-		width: 80.5%;
-		justify-content: space-between;
+		justify-content: space-around;
 		padding: 95px 0 0 0;
 	}
 	.features-items article {
-		padding: 37px 0 0 0;
-		width: 37.9%;
+		padding: 37px 5% 0 5%;
+		width: 31.2%;
 	}
 	.reviews {
 		padding: 0 0 100px 0;
@@ -346,10 +348,9 @@ footer p {
 		padding: 100px 0 10px 0;
 	}
 	.footer-content {
-		width: 77%;
 		align-items: stretch;
 		padding: 0 0 100px 0;
-		justify-content: space-between;
+		justify-content: space-around;
 	}
 	.footer-content p {
 		padding: 0;
@@ -396,9 +397,33 @@ footer p {
 		margin: 0;
 	}
 }
-
+/*-----Desktop styles -----*/
 @media only screen and (min-width: 1200px) {
-
+	.content-wrapper {
+		width: 80%;
+	}
+	.hero-area h1 {
+		padding: 50px 0;
+	}
+	aside .content-wrapper {
+		justify-content: space-around;
+	}
+	.features-items {
+		padding-top: 30px;
+	}
+	.features-items article {
+		width: 16.7%;
+		padding: 63px 5% 0 5%;
+	}
+	.reviews h2 {
+		padding-bottom: 87px;
+	}
+	.faq-content {
+		flex-basis: 45%;
+	}
+	.contact-section .content-wrapper div {
+		width: 45%;
+	}
 }
 
 /* ==========================================================================
