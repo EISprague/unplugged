@@ -97,7 +97,53 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.content-wrapper,
+/*-----General Styles-----*/
+html {
+  font-size: 16px;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.875em;
+}
+h3,
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+}
+p {
+  font-weight: 400;
+  font-size: 0.875em;
+  line-height: 1.125em;
+}
+img {
+
+}
+figure {
+
+}
+address {
+  font-style: normal;
+}
+.content-wrapper {
+
+}
+
+   .content-wrapper,
 header,
 header nav,
 header nav ul,
@@ -299,6 +345,9 @@ footer p {
 
    /*-----Tablet styles-----*/
 @media only screen and (min-width: 768px) {
+  html {
+    font-size: 21.33px;
+  }
 	.content-wrapper {
 		width: 83.3%;
 	}
@@ -399,6 +448,9 @@ footer p {
 }
 /*-----Desktop styles -----*/
 @media only screen and (min-width: 1200px) {
+  html {
+    font-size: 26.67px;
+  }
 	.content-wrapper {
 		width: 80%;
 	}
