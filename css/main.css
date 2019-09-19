@@ -116,6 +116,11 @@ a {
   text-decoration: none;
   text-transform: uppercase;
 }
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 2.25em;
+}
 h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
@@ -135,10 +140,10 @@ p {
   line-height: 1.125em;
 }
 img {
-
+  width: 100%;
 }
 figure {
-
+  margin: 0;
 }
 address {
   font-style: normal;
@@ -155,13 +160,14 @@ aside, .faq, .mission {
 
 .content-wrapper,
 header,
+header figure,
 header nav,
 header nav ul,
 .hero-area,
 aside,
 section,
 .features-items,
-.review-wrapper,
+.reviews article,
 .mission-content,
 footer,
 .footer-content,
@@ -189,6 +195,12 @@ header nav ul {
 }
 .header-divider {
     width: 100%;
+    height: 1px;
+    background-color: #3a3a3a;
+    margin: 10px 0;
+}
+header figure {
+    width: 60%;
 }
 header nav {
     width: 60%;
@@ -219,9 +231,13 @@ aside .form input {
 header {
     padding: 15px 0;
 }
-.hero-area h1 {
-    padding: 55px 0;
-    margin: 0;
+.hero-area {
+  background: url('../img/jake-melara-30679-unsplash.jpg') center no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+.hero-area {
+    align-content: flex-start;
 }
 aside h3 {
     padding: 30px 0 15px 0;
@@ -229,6 +245,10 @@ aside h3 {
 }
 aside .content-wrapper {
   padding-bottom: 30px;
+}
+.features {
+  background: url('../img/rawpixel-800820-unsplash1.jpg') center no-repeat;
+  background-size: cover;
 }
 .features-item-description,
 .contact,
@@ -388,6 +408,9 @@ footer p {
   html {
     font-size: 21.33px;
   }
+  p {
+    font-size: 0.656em;
+  }
 	.content-wrapper {
 		width: 83.3%;
 	}
@@ -396,7 +419,10 @@ footer p {
 	}
 	header .content-wrapper {
 		justify-content: space-between;
-	}
+  }
+  header figure {
+    width: 34.4%;
+  }
 	header nav {
 		width: 25%;
 	}
@@ -432,7 +458,21 @@ footer p {
 	}
 	.reviews {
 		padding: 0 0 100px 0;
-	}
+  }
+  .reviews article {
+    justify-content: space-between;
+    align-items: stretch;
+    padding-top: 22px;
+  }
+  .reviews article h3 {
+    padding-top: 0;
+  }
+  .reviews figure {
+    width: 48%;
+  }
+  .review-wrapper {
+    width: 48%;
+  }
 	footer {
 		padding: 100px 0 10px 0;
 	}
@@ -498,7 +538,13 @@ footer p {
   }
 	.content-wrapper {
 		width: 80%;
-	}
+  }
+  h2 {
+    font-size: 1.35em;
+  }
+  header figure {
+    width: 29.8%;
+  }
 	.hero-area h1 {
 		padding: 50px 0;
 	}
@@ -511,7 +557,10 @@ footer p {
 	.features-items article {
 		width: 16.7%;
 		padding: 63px 5% 0 5%;
-	}
+  }
+  .reviews article {
+    padding-top: 0;
+  }
 	.reviews h2 {
 		padding-bottom: 87px;
 	}
