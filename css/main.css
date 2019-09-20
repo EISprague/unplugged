@@ -172,6 +172,7 @@ section,
 .mission-content,
 footer,
 .footer-content,
+.social,
 .social-icons {
     display: flex;
     justify-content: center;
@@ -326,8 +327,27 @@ footer h4 {
     padding: 0 0 22px 0;
     margin: 0;
 }
+.social-icons {
+  justify-content: space-between;
+}
+.social-icons i {
+  font-size: 18px;
+}
 .footer-content p {
     padding: 0 0 46px 0;
+}
+.social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copyright {
+  padding-top: 50px;
 }
 header .content-wrapper,
 .form-description p,
@@ -515,8 +535,11 @@ footer p {
 	}
 	.contact,
 	.social {
-		width: 40.6%;
-	}
+		width: 50%;
+  }
+  .copyright {
+    padding-top: 0;
+  }
 	/*-----FAQ page-----*/
   .faq,
   .mission,
@@ -605,7 +628,10 @@ footer p {
   }
 	.contact-section .content-wrapper div {
 		width: 45%;
-	}
+  }
+  .social-icons {
+    width: 41.6%;
+  }
 }
 
 /* ==========================================================================
