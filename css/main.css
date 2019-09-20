@@ -487,6 +487,9 @@ footer p {
   .review-wrapper {
     width: 48%;
   }
+  .map figure {
+    padding-bottom: 45.5%;
+  }
 	footer {
 		padding: 100px 0 10px 0;
 	}
@@ -580,7 +583,10 @@ footer p {
 	}
 	.faq-content {
 		flex-basis: 45%;
-	}
+  }
+  .map figure {
+    padding-bottom: 37.5%;
+  }
 	.contact-section .content-wrapper div {
 		width: 45%;
 	}
