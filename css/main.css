@@ -116,21 +116,22 @@ a {
   text-decoration: none;
   text-transform: uppercase;
 }
-h1 {
+h1,
+h2,
+h3,
+h4 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
+}
+h1 {  
   font-size: 2.25em;
 }
 h2 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
   font-size: 1.875em;
   width: 100%;
 }
 h3,
 h4 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
   font-size: 1.125em;
   width: 100%;
 }
@@ -147,9 +148,6 @@ figure {
 }
 address {
   font-style: normal;
-}
-.content-wrapper {
-
 }
 aside, .faq, .mission {
   background-color: #527158;
@@ -470,12 +468,17 @@ footer p {
 	}
 	.header-divider {
 		width: 0;
-	}
+  }
+  .hero-area {
+    height: 600px;
+  }
 	.hero-area .content-wrapper {
 		justify-content: flex-start;
 	}
 	.hero-area h1 {
-		padding: 98px 0;
+    padding: 98px 0;
+    margin: 0;
+    line-height: 1em;
 	}
 	aside .content-wrapper {
 		justify-content: space-between;
@@ -488,7 +491,9 @@ footer p {
 		width: 45.3%;
 	}
 	h2 {
-		padding: 100px 0 0 0;
+    padding: 100px 0 0 0;
+    font-size: 1.68em;
+    line-height: 1.33em;
 	}
 	.features-items {
 		justify-content: space-around;
@@ -597,9 +602,6 @@ footer p {
   header figure {
     width: 29.8%;
   }
-	.hero-area h1 {
-		padding: 50px 0;
-	}
 	aside .content-wrapper {
 		justify-content: space-around;
 	}
